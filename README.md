@@ -39,7 +39,7 @@ News_Analytics_Pipeline_-DBT_VJ_12_DBT_MINIPROJECT/
 ├── batch_processor.py         # Performs historical batch analytics
 ├── extractor.py               # Extracts and cleans article content
 ├── db_config.py               # Sets up and configures MySQL database
-├── config.template.py         # Template for API keys and database settings
+├── config.py                 # Template for API keys and database settings
 ├── requirements.txt           # Python dependencies
 ├── .gitignore                 # Git ignore rules
 └── README.md                  # Project documentation
@@ -54,7 +54,7 @@ News_Analytics_Pipeline_-DBT_VJ_12_DBT_MINIPROJECT/
 | `batch_processor.py`         | Performs **historical batch** analytics                   |
 | `extractor.py`               | Extracts and cleans article content                       |
 | `db_config.py`               | Sets up and configures the MySQL database                 |
-| `config.template.py`         | Template for API keys and database settings               |
+| `config.py`         | Template for API keys and database settings               |
 
 ## 6. Installation and Setup
 
