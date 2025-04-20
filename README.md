@@ -55,7 +55,6 @@ News_Analytics_Pipeline_-DBT_VJ_12_DBT_MINIPROJECT/
 | `extractor.py`               | Extracts and cleans article content                       |
 | `db_config.py`               | Sets up and configures the MySQL database                 |
 | `config.template.py`         | Template for API keys and database settings               |
-| `generate_performance_graphs.py` | Visualizes performance metrics                      |
 
 ## 6. Installation and Setup
 
