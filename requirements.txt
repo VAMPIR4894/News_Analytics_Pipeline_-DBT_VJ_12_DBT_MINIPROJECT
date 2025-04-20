@@ -1,0 +1,13 @@
+# Core dependencies
+pyspark>=3.4.0
+kafka-python>=2.0.2
+mysql-connector-python>=8.0.33
+textblob>=0.17.1
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+html2text>=2020.1.16
+feedparser>=6.0.10
+
+# Optional dependencies for visualization (if needed)
+matplotlib>=3.7.1
+seaborn>=0.12.2
