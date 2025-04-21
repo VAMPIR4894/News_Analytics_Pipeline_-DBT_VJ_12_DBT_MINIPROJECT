@@ -101,6 +101,18 @@ kafka-server-start.sh config/server.properties
 ```
 
 ### Start Application Components
+### Start Required Services
+```bash
+# Terminal 1 - Start Zookeeper
+/opt/homebrew/bin/zookeeper-server-start /opt/homebrew/etc/kafka/zookeeper.properties
+
+
+# Terminal 2 - Start Kafka
+/opt/homebrew/bin/kafka-server-start /opt/homebrew/etc/kafka/server.properties
+
+```
+
+### Start Application Components
 ```bash
 # Terminal 3 - Start Producer
 python producer.py
@@ -109,10 +121,10 @@ python producer.py
 python consumer.py
 
 # Terminal 5 - Start Streaming Job
-spark-submit spark_job.py
+python spark_job.py
 
 # Terminal 6 - Start Batch Processing
-spark-submit batch_processor.py
+python batch_processor.py
 ```
 
 ## 8. Troubleshooting
