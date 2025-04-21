@@ -91,15 +91,6 @@ python db_config.py
 
 ## 7. Running the System
 
-### Start Required Services
-```bash
-# Terminal 1 - Start Zookeeper
-zookeeper-server-start.sh config/zookeeper.properties
-
-# Terminal 2 - Start Kafka
-kafka-server-start.sh config/server.properties
-```
-
 ### Start Application Components
 ### Start Required Services
 ```bash
